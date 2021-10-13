@@ -36,7 +36,7 @@ var brittanisBirthYear = 1986
 //   console.log("Brittany is older.");
 // } else {
 //   console.log("They are the same age.");
-}
+//}
 
 ////////// PROBLEM 3 //////////
 
@@ -89,6 +89,9 @@ if (rain !== true && temperature < 60){
 
 //CODE HERE
 
+// for (let i = 1; i <= 10; i++){
+//   console.log("hello");
+// }
 
 ////////// PROBLEM 6 //////////
 
@@ -98,6 +101,9 @@ if (rain !== true && temperature < 60){
 
 //CODE HERE
 
+// for (let i = 1; i <= 10; i++){
+//   console.log(i);
+// }
 
 ////////// PROBLEM 7 //////////
 
@@ -107,8 +113,13 @@ if (rain !== true && temperature < 60){
 
 //CODE HERE
 
+// for (let i = 10; i >= 1; i--){
+//   console.log(i);
+// }
+
 let score = 0
 let passingScore = 7
+
 
 ////////// PROBLEM 8 //////////
 
@@ -117,6 +128,11 @@ let passingScore = 7
 */
 
 //CODE HERE
+
+while (score < passingScore){
+    console.log("Your score isn't high enough.");
+    score += 1;
+  }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
